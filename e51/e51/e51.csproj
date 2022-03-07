@@ -1,0 +1,121 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+    <ProduceReferenceAssembly>true</ProduceReferenceAssembly>
+  </PropertyGroup>
+
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|AnyCPU'">
+    <DebugType>portable</DebugType>
+    <DebugSymbols>true</DebugSymbols>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Xamarin.Forms" Version="5.0.0.2012" />
+    <PackageReference Include="Xamarin.Essentials" Version="1.6.1" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="Files\" />
+    <None Remove="Files\Novedades.xml" />
+    <None Remove="Imagenes\" />
+    <None Remove="Imagenes\amanecer.jpg" />
+    <None Remove="Imagenes\arma_joven.jpg" />
+    <None Remove="Imagenes\bridget_jones_diary.jpg" />
+    <None Remove="Imagenes\destino_caballero.jpg" />
+    <None Remove="Imagenes\dungeons.jpg" />
+    <None Remove="Imagenes\el_quinto_elemento.jpg" />
+    <None Remove="Imagenes\entrevista.jpg" />
+    <None Remove="Imagenes\episodio1.jpg" />
+    <None Remove="Imagenes\final_escalera.jpg" />
+    <None Remove="Imagenes\finalfantasy.jpg" />
+    <None Remove="Imagenes\forrest.jpg" />
+    <None Remove="Imagenes\historia_inter.jpg" />
+    <None Remove="Imagenes\Hombre.jpg" />
+    <None Remove="Imagenes\jurassic3.jpg" />
+    <None Remove="Imagenes\le_llaman_bodhi.jpg" />
+    <None Remove="Imagenes\los_padres_de_ella.jpg" />
+    <None Remove="Imagenes\Matrix.jpg" />
+    <None Remove="Imagenes\meetjoeblack.jpg" />
+    <None Remove="Imagenes\mejor_imposible.jpg" />
+    <None Remove="Imagenes\mi2.jpg" />
+    <None Remove="Imagenes\mision_marte.jpg" />
+    <None Remove="Imagenes\nodisponible.jpg" />
+    <None Remove="Imagenes\Obra_Maestra.jpg" />
+    <None Remove="Imagenes\Pearl.jpg" />
+    <None Remove="Imagenes\Phenomenon.jpg" />
+    <None Remove="Imagenes\ptinto.jpg" />
+    <None Remove="Imagenes\pulp.jpg" />
+    <None Remove="Imagenes\Road.jpg" />
+    <None Remove="Imagenes\seven.jpg" />
+    <None Remove="Imagenes\shrek.jpg" />
+    <None Remove="Imagenes\sinperdon.jpg" />
+    <None Remove="Imagenes\snatch.jpg" />
+    <None Remove="Imagenes\solas.jpg" />
+    <None Remove="Imagenes\space_cowboys.jpg" />
+    <None Remove="Imagenes\stigmata.jpg" />
+    <None Remove="Imagenes\superman.jpg" />
+    <None Remove="Imagenes\The_mummy_returns.jpg" />
+    <None Remove="Imagenes\tombraider.jpg" />
+    <None Remove="Imagenes\topgun.jpg" />
+    <None Remove="Imagenes\torrente.jpg" />
+    <None Remove="Imagenes\torrente2.jpg" />
+    <None Remove="Imagenes\toy_story.jpg" />
+    <None Remove="Imagenes\ultimo_escalon.jpg" />
+    <None Remove="Imagenes\verdad_esconde.jpg" />
+    <None Remove="Imagenes\x-men.bmp" />
+    <None Remove="Imagenes\x-men.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Files\" />
+    <Folder Include="Imagenes\" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Files\Novedades.xml" />
+    <EmbeddedResource Include="Imagenes\amanecer.jpg" />
+    <EmbeddedResource Include="Imagenes\arma_joven.jpg" />
+    <EmbeddedResource Include="Imagenes\bridget_jones_diary.jpg" />
+    <EmbeddedResource Include="Imagenes\destino_caballero.jpg" />
+    <EmbeddedResource Include="Imagenes\dungeons.jpg" />
+    <EmbeddedResource Include="Imagenes\el_quinto_elemento.jpg" />
+    <EmbeddedResource Include="Imagenes\entrevista.jpg" />
+    <EmbeddedResource Include="Imagenes\episodio1.jpg" />
+    <EmbeddedResource Include="Imagenes\final_escalera.jpg" />
+    <EmbeddedResource Include="Imagenes\finalfantasy.jpg" />
+    <EmbeddedResource Include="Imagenes\forrest.jpg" />
+    <EmbeddedResource Include="Imagenes\historia_inter.jpg" />
+    <EmbeddedResource Include="Imagenes\Hombre.jpg" />
+    <EmbeddedResource Include="Imagenes\jurassic3.jpg" />
+    <EmbeddedResource Include="Imagenes\le_llaman_bodhi.jpg" />
+    <EmbeddedResource Include="Imagenes\los_padres_de_ella.jpg" />
+    <EmbeddedResource Include="Imagenes\Matrix.jpg" />
+    <EmbeddedResource Include="Imagenes\meetjoeblack.jpg" />
+    <EmbeddedResource Include="Imagenes\mejor_imposible.jpg" />
+    <EmbeddedResource Include="Imagenes\mi2.jpg" />
+    <EmbeddedResource Include="Imagenes\mision_marte.jpg" />
+    <EmbeddedResource Include="Imagenes\nodisponible.jpg" />
+    <EmbeddedResource Include="Imagenes\Obra_Maestra.jpg" />
+    <EmbeddedResource Include="Imagenes\Pearl.jpg" />
+    <EmbeddedResource Include="Imagenes\Phenomenon.jpg" />
+    <EmbeddedResource Include="Imagenes\ptinto.jpg" />
+    <EmbeddedResource Include="Imagenes\pulp.jpg" />
+    <EmbeddedResource Include="Imagenes\Road.jpg" />
+    <EmbeddedResource Include="Imagenes\seven.jpg" />
+    <EmbeddedResource Include="Imagenes\shrek.jpg" />
+    <EmbeddedResource Include="Imagenes\sinperdon.jpg" />
+    <EmbeddedResource Include="Imagenes\snatch.jpg" />
+    <EmbeddedResource Include="Imagenes\solas.jpg" />
+    <EmbeddedResource Include="Imagenes\space_cowboys.jpg" />
+    <EmbeddedResource Include="Imagenes\stigmata.jpg" />
+    <EmbeddedResource Include="Imagenes\superman.jpg" />
+    <EmbeddedResource Include="Imagenes\The_mummy_returns.jpg" />
+    <EmbeddedResource Include="Imagenes\tombraider.jpg" />
+    <EmbeddedResource Include="Imagenes\topgun.jpg" />
+    <EmbeddedResource Include="Imagenes\torrente.jpg" />
+    <EmbeddedResource Include="Imagenes\torrente2.jpg" />
+    <EmbeddedResource Include="Imagenes\toy_story.jpg" />
+    <EmbeddedResource Include="Imagenes\ultimo_escalon.jpg" />
+    <EmbeddedResource Include="Imagenes\verdad_esconde.jpg" />
+    <EmbeddedResource Include="Imagenes\x-men.bmp" />
+    <EmbeddedResource Include="Imagenes\x-men.jpg" />
+  </ItemGroup>
+</Project>

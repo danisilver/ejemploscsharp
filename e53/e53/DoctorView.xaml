@@ -1,0 +1,20 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+x:Class="e53.DoctorView">
+    <ContentPage.Content>
+        <StackLayout Margin="0,30,0,0" HorizontalOptions="CenterAndExpand" x:Name="layoutDoctor">
+            <Label Text="Doctor_no:"/>
+            <Entry x:Name="txtNumero" Placeholder="Inserta un numero" PlaceholderColor="Orange" WidthRequest="200"/>
+            <Button Text="Buscar" x:Name="buscar" WidthRequest="200" BackgroundColor="Orange"/>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Apellido: " />
+                <Label x:Name="showText" Text="{Binding Doctor.Apellido}" WidthRequest="200" FontAttributes="Bold"/>
+            </StackLayout>
+            <StackLayout Orientation="Horizontal">
+                <Label Text="Especialidad: " />
+                <Label x:Name="showText2" Text="{Binding Doctor.Especialidad}" WidthRequest="200" FontAttributes="Bold"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

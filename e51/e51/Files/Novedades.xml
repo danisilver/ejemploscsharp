@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<DVD>
+	<TITULOS PELICULA="Destino de Caballero"><DISTRIBUIDOR>Touchstone Pictures</DISTRIBUIDOR>
+		<PRECIO>4000</PRECIO>
+		<ANNO>2001</ANNO>
+		<GENERO>Aventuras</GENERO>
+		<ARGUMENTO>Un joven escudero con un don natural para los torneos, parte de su lugar natal en busca de un nuevo destino. Durante el camino, se encuentran con un desconocido escritor, que le sugiere falsificar unos documentos que le harán pasar como un caballero para que pueda comprobar su talento</ARGUMENTO>
+		<DIRECTOR>Brian Helgeland</DIRECTOR>
+		<ACTORES>Heath Ledger, Mark Addy, Paul Bettany, Rufus Sewell.</ACTORES>
+		<IMAGEN>destino_caballero.jpg</IMAGEN>
+	</TITULOS>
+	<TITULOS PELICULA="El Quinto Elemento"><DISTRIBUIDOR>Touchstone Pictures</DISTRIBUIDOR>
+		<PRECIO>3000</PRECIO>
+		<ANNO>1997</ANNO>
+		<GENERO>Ciencia - Ficcion</GENERO>
+		<ARGUMENTO>Cada 5000 años se abre una puerta entre las dimensiones. En una dimensión existe el Universo y la vida. En la otra dimensión existe un elemento que no está hecho ni de tierra, ni de fuego, ni de aire, ni de agua, sino que es una anti-energía, la anti-vida: es el quinto elemento.</ARGUMENTO>
+		<DIRECTOR>Luc Besson</DIRECTOR>
+		<ACTORES>Bruce Willis, Gary Oldman, Ian Holm, Milla Jovovich.</ACTORES>
+		<IMAGEN>el_quinto_elemento.jpg</IMAGEN>
+	</TITULOS>
+	<TITULOS PELICULA="Final Fantasy"><DISTRIBUIDOR>Touchstone Pictures</DISTRIBUIDOR>
+		<PRECIO>4000</PRECIO>
+		<ANNO>2001</ANNO>
+		<GENERO>Animacion</GENERO>
+		<ARGUMENTO>La Tierra en el año 2065: ha estallado una guerra contra los alienígenas que pretenden conquistar nuestro planeta, y la Doctora Aki, una brillante y joven bióloga, está a punto de descubrir un método para poder enfrentarse a ellos y poder salvar el planeta. Pero el tiempo se le acaba, ya que ella misma ha sido infectada por un virus extraterrestre, y el General Hein está dispuesto a terminar con la amenaza de cualquier forma, incluso si esto representa destruir por completo la Tierra.</ARGUMENTO>
+		<DIRECTOR>Hironobu Sakaguchi</DIRECTOR>
+		<ACTORES>Dibujos Animados</ACTORES>
+		<IMAGEN>finalfantasy.jpg</IMAGEN>
+	</TITULOS>
+	<TITULOS PELICULA="Le llaman Bodhi"><DISTRIBUIDOR>Touchstone Pictures</DISTRIBUIDOR>
+		<PRECIO>2500</PRECIO>
+		<ANNO>1991</ANNO>
+		<GENERO>Accion</GENERO>
+		<ARGUMENTO>Un joven agente del FBI investiga unos robos cometidos por una peculiar banda de asaltantes. Para seguir sus pesquisas se infiltra en un grupo de surfistas cuyo líder es una especie de místico.</ARGUMENTO>
+		<DIRECTOR>Kathryn Bigelow</DIRECTOR>
+		<ACTORES>Keanu Reeves, Patrick Swa</ACTORES>
+		<IMAGEN>le_llaman_bodhi.jpg</IMAGEN>
+	</TITULOS>
+	<TITULOS PELICULA="Shrek"><DISTRIBUIDOR>Touchstone Pictures</DISTRIBUIDOR>
+		<PRECIO>4000</PRECIO>
+		<ANNO>2001</ANNO>
+		<GENERO>Animacion</GENERO>
+		<ARGUMENTO>Shrek es un personaje de color verde que vive en un mundo habitado por los protagonistas de los cuentos infantiles. Testarudo, cínico y orgulloso, Shrek es esa clase de gente a la que no le gusta quién tiene a su alrededor, sobre todo aquellos que están inundado su mundo. Se embarcará en toda suerte de aventuras para librarse de ellos.</ARGUMENTO>
+		<DIRECTOR>Andrew Adamson, Vicky Jenson</DIRECTOR>
+		<ACTORES>Voces de Cruz y Raya</ACTORES>
+		<IMAGEN>shrek.jpg</IMAGEN>
+	</TITULOS>
+	<TITULOS PELICULA="Tomb Raider"><DISTRIBUIDOR>Touchstone Pictures</DISTRIBUIDOR>
+		<PRECIO>4000</PRECIO>
+		<ANNO>2001</ANNO>
+		<GENERO>Accion</GENERO>
+		<ARGUMENTO>Lara es hija de una familia inglesa muy rica, pero con un espíritu de heroína que contradice su origen. Ataviada con pantalones cortos y camisetas que marcan su silueta, ella prefiere salir en busca de aventuras (siempre relacionadas con la arqueología) antes que codearse con la jet set.</ARGUMENTO>
+		<DIRECTOR>Simon West</DIRECTOR>
+		<ACTORES>Angelina Jolie, Daniel Craig, Leslie Phillips, Mark Collie</ACTORES>
+		<IMAGEN>tombraider.jpg</IMAGEN>
+	</TITULOS>
+	<TITULOS PELICULA="Torrente 2. Misión en Marbella"><DISTRIBUIDOR>Lola Films</DISTRIBUIDOR>
+		<PRECIO>4000</PRECIO>
+		<ANNO>2001</ANNO>
+		<GENERO>Comedia</GENERO>
+		<ARGUMENTO>Torrente tiene que luchar contra un terrorista internacional que se encuentra actuando en Marbella. Salvará a la ciudad de las manos de este criminal contando con la colaboración de un ayudante.</ARGUMENTO>
+		<DIRECTOR>Santiago Segura</DIRECTOR>
+		<ACTORES>Santiago Segura, José Luis Moreno, Gabino Diego, Tony Leblanc</ACTORES>
+		<IMAGEN>torrente2.jpg</IMAGEN>
+	</TITULOS>
+</DVD>
